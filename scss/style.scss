@@ -10,4 +10,109 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+h1{
+    font-family: 'Fredericka the Great', 'cursive';
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* common css end  */
+
+/* header section css start  */
+.header{
+    background: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 840px;
+    position: relative;
+    #nav{
+        padding-top: 20px;
+        .logo{
+            margin-left: -95px;
+        }
+        #navbar{
+            .delivery{
+                margin-top: 18px;
+                margin-right: -30px;
+                p{
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                h5{
+                    a{
+                        font-size: 29px;
+                        font-weight: 700;
+                        color: #000; 
+                    }
+                }
+            }
+            ul{
+                margin-top: 20px;
+                li{
+                    &:last-child{
+                        margin-right: -78px;
+                    }
+                    a{
+                        margin-left: 60px;
+                        font-size: 17px;
+                        font-weight: 700;
+                        color: #000;
+                        text-transform: capitalize;
+                        transition: 0.3s;
+                        &:hover{
+                            color: #578b20;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header_text{
+        .first{
+            margin-top: 41px;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            font-size: 40px;
+            color: #000;
+            font-weight: 400
+        }
+        h1{
+            font-size: 87px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        h4{
+            font-size: 27px;
+            color: #000;
+            font-weight: 700;
+        }
+        .para{
+            margin-top: 70px;
+            margin-bottom: 36px;
+            p{
+                font-size: 19px;
+                font-weight: 400;
+                font-family: 'Fredericka the Great', 'cursive';
+                margin-right: 20px;
+                margin-left: 80px;
+            }
+            h5{
+                font-size: 57px;
+                font-family: 'Fredericka the Great', 'cursive';
+                margin-top: -8px;
+            }
+        }
+        a{
+            padding: 20px 41px;
+            background: transparent;
+            color: #000;
+            font-size: 21px;
+            font-weight: 800;
+            border: 1px solid #000;
+            margin-left: 100px;
+        }
+    }
+}
+/* header section css end  */
